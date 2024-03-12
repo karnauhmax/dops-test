@@ -28,7 +28,7 @@ const props = defineProps({
 })
 
 const icon = computed(() => {
-  return `url("/img/${props.icon}.svg")`
+  return `url("/dops-test//img/${props.icon}.svg")`
 })
 </script>
 

@@ -28,22 +28,22 @@ import gsap from 'gsap'
 const teamImages = [
   {
     id: 1,
-    src: '/img/team/team-1.jpg'
+    src: '/dops-test/img/team/team-1.jpg'
   },
 
   {
     id: 2,
-    src: '/img/team/team-2.jpg'
+    src: '/dops-test/img/team/team-2.jpg'
   },
 
   {
     id: 3,
-    src: '/img/team/team-3.jpg'
+    src: '/dops-test/img/team/team-3.jpg'
   },
 
   {
     id: 4,
-    src: '/img/team/team-4.jpg'
+    src: '/dops-test/img/team/team-4.jpg'
   }
 ]
 
@@ -61,9 +61,9 @@ onMounted(() => {
     gsap.from('.hero', {
       y: 150
     })
-  }, PRELOADER_DELAY - 700)
 
-  document.body.style.overflow = ''
+    document.body.style.overflow = ''
+  }, PRELOADER_DELAY - 700)
 })
 </script>
 

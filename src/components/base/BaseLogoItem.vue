@@ -1,6 +1,6 @@
 <template>
   <li class="item">
-    <img :src="`/img/${img}`" alt="" />
+    <img :src="`/dops-test/img/${img}`" alt="" />
   </li>
 </template>
 
