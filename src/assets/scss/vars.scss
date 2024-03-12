@@ -1,0 +1,24 @@
+:root {
+ //color variables
+
+ --primary-color: #E63E3A;
+ --dark-color: #101820;
+ --light-color: #FFFFFF;
+
+
+ //typography variables
+
+ --font-family-primary: 'SuisseIntl', sans-serif;
+ --leading-primary: 1.2;
+
+ //container variables
+
+ --container-width: 1880px;
+ --container-inline-paddings: 12px;
+
+ //transition variables
+
+ --transition-duration: 0.6s;
+
+ --transition-timing-function: ease;
+}

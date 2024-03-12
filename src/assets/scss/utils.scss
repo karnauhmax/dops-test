@@ -1,0 +1,39 @@
+//text utils
+
+.color-primary {
+ color: var(--primary-color)
+}
+
+.text-underline {
+ text-decoration: underline;
+
+ @media (any-hover: hover) {
+  &:hover {
+   text-decoration: none;
+  }
+ }
+ 
+}
+
+//layout utils
+
+.grid {
+ display: grid;
+}
+
+.flex {
+ display: flex;
+}
+
+.grid-cols-12 {
+ grid-template-columns: repeat(12, 1fr);
+}
+
+.items-center {
+ align-items: center;
+}
+
+.primary-transition {
+ transition-duration: var(--transition-duration);
+ transition-timing-function: var(--transition-timing-function);
+}

@@ -1,0 +1,121 @@
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+button {
+ border: none;
+ padding: 0;
+ background: transparent;
+ cursor: pointer;
+ font-family: inherit;
+ font-size: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ margin: 0;
+ padding: 0;
+}
+
+ul,
+li {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.page {
+ height: 100%;
+ font-family: var(--font-family-primary);
+ -webkit-text-size-adjust: 100%;
+}
+
+
+
+.page__body {
+ padding: 0;
+ margin: 0;
+ min-width: 320px;
+ margin: 0 auto;
+//  height: 100%;
+ font-size: 22px;
+ font-family: var(--font-family-primary);
+ background-color: var(--light-color);
+ color: var(--dark-color);
+ line-height: var(--leading-primary);
+
+ @media screen and (max-width: 1600px) {
+  font-size: 18px;
+ }
+}
+
+img {
+ height: auto;
+ max-width: 100%;
+ object-fit: cover;
+ display: block;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+}
+
+.site-container {
+ height: 100%;
+ display: grid;
+ grid-template-columns: 100%;
+ overflow-x: hidden;
+//  grid-template-rows: 1fr auto; // change to auto 1fr auto if header is not absolute
+}
+
+.hidden {
+ display: none !important;
+}
+
+input {
+ -webkit-appearance: none;
+ appearance: none;
+ border: none;
+ border-radius: 0;
+ background-color: #fff;
+
+ &::-webkit-search-decoration,
+ &::-webkit-search-cancel-button,
+ &::-webkit-search-results-button,
+ &::-webkit-search-results-decoration {
+   display: none;
+ }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+ -moz-appearance: textfield;
+}
+
+
+
+
+.container {
+ max-width: calc(var(--container-width) + var(--container-inline-paddings) * 2);
+ padding-inline: var(--container-inline-paddings);
+ margin: 0 auto;
+}
+
+
+
+
