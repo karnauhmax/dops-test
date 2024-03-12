@@ -1,35 +1,13 @@
-# dops-test
+The task was made in 2 days.
 
-This template should help get you started developing with Vue 3 in Vite.
+Avoided animating width, height as much as possible and used transform to trigger compositing layer instead of CPU animations rendering.
 
-## Recommended IDE Setup
+Used lightweight utilities classes file for reusability.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Animated only few sections as mentioned in the task description.
 
-## Customize configuration
+The website is responsive up to 1366 as mentioned in the task description.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Used SVG animation for logo and preloder.
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Live preview here: https://karnauhmax.github.io/dops-test/
